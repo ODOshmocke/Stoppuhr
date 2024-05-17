@@ -12,6 +12,7 @@ activityCompose = "1.8.2"
 composeBom = "2023.08.00"
 material = "1.11.0"
 ychartsVersion = "2.1.0"
+places = "3.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +33,7 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 yml-ycharts = { module = "co.yml:ycharts", version.ref = "ychartsVersion" }
+places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

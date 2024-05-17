@@ -53,8 +53,11 @@ android {
 }
 
 dependencies {
-
     implementation(libs.yml.ycharts)
+
+    implementation("com.patrykandpatrick.vico:compose:2.0.0-alpha.19")
+    implementation("com.patrykandpatrick.vico:compose-m3:2.0.0-alpha.19")
+    implementation("com.patrykandpatrick.vico:core:2.0.0-alpha.19")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -66,6 +69,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.material)
     implementation(libs.gson.v291)
+    implementation(libs.places)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

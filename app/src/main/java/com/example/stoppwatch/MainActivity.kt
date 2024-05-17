@@ -167,7 +167,7 @@ fun TabBar(tabItems: List<TabItem> = allTabs()) {
                     Stopwatch()
                 }
                 1 -> {
-                    show()
+                    //showChart()
                 }
                 2 -> {
                     Text("Profile")
